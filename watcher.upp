@@ -1,0 +1,16 @@
+description "front-end for polling and inotify (see sip also)\377";
+
+uses
+	utilfuncs;
+
+library
+	pthread;
+
+file
+	watcher.h,
+	poller.cpp,
+	watcher.cpp;
+
+mainconfig
+	"" = "";
+
